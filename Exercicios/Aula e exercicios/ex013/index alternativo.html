@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospeadados localmente</h1>
+    <p>Este vídeo está hospedado no meu própio servidor</p> <!--forma simples tive que mexer no width para diminuir tamanho, so que o peso continua-->
+<video width ="500" controls muted autoplay loop> <!--Se quiser botar thumb, após comando width= "500" poster/imagens/nomedathumb.png controls>"--> <!--Se quiser deixar sem autoplay é sua escolha--> <!--ATENÇÃO autoplay so funciona se tiver muted-->
+   <source src="midia/tokyo.webm" type="video/webm">
+   <source src="midia/tokyo.m4v" type="video/mp4">
+   <source src="midia/tokyo.ogv" type="video/ogg">
+   <source src="midia/tokyo.mp4" type="video/mp4">
+
+</video>
+
+</body>
+</html>

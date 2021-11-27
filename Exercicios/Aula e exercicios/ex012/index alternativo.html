@@ -1,0 +1,40 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Mídias em HTML5</title>
+ </head>
+ <body>
+     <h1>Imagem dinâmica</h1>
+     <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ediminua o tamanho do seu navegador.</p>
+     <picture>
+         <source media="(max-width: 750px)" srcset="imagens/fotop.png" type="image/png">
+         <source media="(max-width: 1050px )" srcset="imagens/fotom.png" type="image/png">
+         <img src="imagens/fotog.png" alt="imagem flexivel">
+     </picture>
+    
+    
+     <h1>Reproduzindo audio</h1>
+    
+     <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    
+<audio preload="metadata" autoplay controls loop>
+<source src="midia/onon.mp3" type="audio/mpeg">
+<source src="midia/onon.ogg" type="audio/ogg">
+</audio>
+<!--Tocar com controle e loop se quiser: <audio preload="metadata" autoplay controls loop>-->
+
+
+</body>
+</html>
+  <!--CASO O AUDIO não toque automaticamente, tentar os comandos abaixo-->
+     <!-- Com diferentes tipos de formato-->
+     <!--<source src="midia/onon.ogg" type="audio/ogg">-->
+     <!--audio preload metadata vai carregar so a data,duração e dar auto play-->
+     <!--Formatos pra tentar rodar o audio auto MP3 WAV OGG-->
+
+    
+     <!-- A tag <Picture é pra dizer que vai vir image, e é boa pra colocar varios img src, mi-->
+         <!--Source media type serve pra configurar a rolagem da imagem para ficar mais certa quando o usuario abrir, é bom trabalhar com max-width se afoto for a grande que foi o caso de 1000px-->

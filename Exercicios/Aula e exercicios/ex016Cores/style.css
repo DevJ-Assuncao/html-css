@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+body{
+    background-image: linear-gradient( to right, #FEE5E0, #F0B3B2);
+}
+
+main{
+    background-color: white;
+    border-radius: 10px; /*Bota a borda branca redondinha dando acabamento */
+    box-shadow: 5px 5px 15px rgba(159, 154, 150, 0.452);
+    width: 600px;  /*Largura */
+    padding: 10px; /*Acochoamento*/
+    margin: auto; /*Pra centralizar a área mesmo se diminuir ou aumentar a tela*/
+}
+h1{
+    color: #9F9A96;
+    text-align: center;
+    text-shadow: 1px 1px 2px #85807cb6;
+    ;
+}
+h2{
+    color: #3e2474;
+    
+}
+p{
+    text-align: justify;
+}

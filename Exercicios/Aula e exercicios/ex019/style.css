@@ -1,0 +1,36 @@
+@charset "UTF-8";
+/* em HTML é id = em CSS é #  ( só pode um elelmento )*/ 
+/* em HTML é class = em CSS é . (pode vários elementos) */
+
+body {
+    background-color: #d6fde9;
+    font-family: Arial, Helvetica, sans-serif;
+                                                    }
+
+h1 {
+    color: darkgreen;
+    } 
+h1#principal {
+    text-align: center;  /* h1#princiapl q é o nome do comnado q eu dei no html
+    e o comando será especifica so pra ele */
+    background-color: #3c805e;
+    color: white;
+}   /*o Id sobrepoe as configuração do color do h1 */
+
+h2 { 
+    color:  #3c805e;
+}
+ 
+
+.basico {
+    color: #80793c;
+}
+.intermediario {
+    color: #3c805e;
+}
+.avançado {
+    color: #803c3c;
+}
+.destaque {
+    background-color: rgb(218, 238, 173);
+}
