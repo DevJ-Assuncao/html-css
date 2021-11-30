@@ -4,21 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shorthand- background</title>
     <style>
-        body{
+     body{
             height: 100vh;
-            background-color:black;
+        /*  background-color:black;
             background-image: url('wallpaper002.jpg');
-            background-position: center top;
-            background-repeat: repeat-y; /*pra texto grande, repetindo e aumentando verticalmente*/
-            background-size: cover; /*Cover vai cobrir os espaços em branco ou preto, pois irá picotar as laterais ou a parte de cima da tela, fazendo caber.*/
-            /*também há a possibilidade de colocar contain pra imagem ser totalmente exibida*/
+            background-position: center center;
+            background-repeat: no-repeat; /*pra texto grande, repetindo e aumentando verticalmente
+            background-size: cover; Cover vai cobrir os espaços em branco ou preto, pois irá picotar as laterais ou a parte de cima da tela, fazendo caber.
+            /*também há a possibilidade de colocar contain pra imagem ser totalmente exibida
+            background-attachment: fixed; mantém a imagem estatica, e somente o texto vai rolar        
         
-        }
+             shorthand- background
+            Ordem color > image > position > repeat > [size] > attachment*/
+        /* PS: shorthand size so funciona se vier acompanhada com /  */ 
+        
+        
+        background: black url('wallpaper002.jpg') center center/cover no-repeat fixed;  
+    }   
+        
+
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkslateblue;
